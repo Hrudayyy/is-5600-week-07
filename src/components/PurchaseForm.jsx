@@ -35,7 +35,6 @@ export default function PurchaseForm({filter}) {
       });
     
   }
-
   return (
     <form className="pt4 pb4 pl2 black-80 w-50" onSubmit={handleSubmit}>
       <fieldset className="cf bn ma0 pa0">
@@ -48,3 +47,5 @@ export default function PurchaseForm({filter}) {
     </form>
   )
 }
+
+
